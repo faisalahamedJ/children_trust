@@ -1,0 +1,634 @@
+:root{
+    --primary : rgb(255, 230, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    line-height: 1;
+    letter-spacing: .04rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.highlight-text {
+    color: rgb(255, 230, 0);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+
+
+.header-container{
+    margin: 0;
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 0 0px 15px -10px #000;
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 150px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--primary);
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
+.nav-menu{
+    width: 70vw;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.3rem;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    list-style: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: .9rem;
+}
+
+.nav-item > a{
+    color: rgb(100, 100, 100);
+    padding-bottom: 1.1rem;
+}
+
+.nav-item > a:hover{
+    color: #000;
+    border-bottom: 3px solid var(--primary);
+}
+
+.nav-item:hover{
+   
+}
+
+
+.showcase-1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin-top: 3rem;
+    position: relative;
+
+    
+}
+
+.showcase-1 > .why-children-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+ 
+}
+
+.showcase-1 > .why-children-box > h1 {
+    display: inline-block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: .15rem solid var(--primary);
+
+}
+
+.showcase-1 > .why-children-box > p {
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.showcase-1-img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -11;
+}
+
+.population-box{
+    width: 70vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    box-shadow: 0px -3px 15px -5px rgba(39, 39, 39, 0.5); 
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    backdrop-filter: blur(3px);
+
+}
+.population-box > div {
+    padding: 2rem;
+}
+
+.population-box-content{
+    width: 50%;
+}
+
+.population-box-img{
+    width: 50%;
+    left: 0;
+    
+}
+
+.population-box-img > img{
+    margin: auto;
+        width: 100%;
+    height: auto;
+
+}
+
+.population-box >div> h1 {
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.population-box > div > p{
+    line-height: 1.5rem;
+    letter-spacing: .07rem;
+}
+
+.back-to-top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 230, 0);
+    bottom: 2rem;
+    right: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+    
+}
+.back-to-top>a{
+
+    color: white;
+    margin: 12px auto;
+    font-size: 2em;
+    box-sizing: border-box;
+
+}
+
+.showcase-2{
+    width: 50%;
+    margin: 10rem auto;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.showcase-2 > p {
+    padding-top: 1rem;
+}
+
+.mid-box{
+    width: 70vw; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.mid-box > .box{
+    width: 30%;
+    height: autro;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 -1px 5px  rgba(0,0,0,.5) ;
+    padding: 1.5rem 1rem;
+}
+
+.mid-box > .box:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,.5) ;
+
+}
+
+
+.mid-box > .box > h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mid-box > .box > h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mid-box > .box > p{
+    margin-bottom: 1rem;
+    letter-spacing: .05rem;
+}
+
+
+.showcase-3{
+    width: 50%;
+    margin: 10rem auto;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.showcase-3 >h2, .showcase-3>h1{
+    margin-bottom: 1rem;
+
+}
+
+.showcase-3 >p{
+    margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
+    
+}
+
+.btn-showcase-3 {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0,.6);
+    background-color: rgb(255, 230, 0);
+    border: 1px solid rgba(255, 199, 16, 0.5);
+ 
+}
+
+.btn-showcase-3 > a{
+    color: rgba(0, 0, 0,.7);
+}
+
+.btn-showcase-3 > a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.btn-showcase-3:hover{
+    box-shadow: 
+    15px 10px 5px rgba(255, 217, 3, 0.5),
+    -15px -10px 5px rgba(255, 217, 3, 0.5),
+    15px -10px 5px rgba(255, 217, 3, 0.5),
+    -15                                                                                                                                                               px 10px 5px rgba(255, 217, 3, 0.5);
+    
+}
+
+.photo-content-wrapper{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.3rem;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.contend-about{
+    width: 50%;
+}
+
+.contend-about>h1, .contend-about>h3 {
+    margin-bottom: 1rem;
+}
+.contend-about > p{
+    margin-top: 1rem;
+    letter-spacing: .05rem;
+}
+
+
+.describe-container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto 6rem  auto;
+    line-height: 1.3rem;
+
+}
+.describe-container > h4{
+    margin-bottom: .7rem;
+}
+
+.describe-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.describe-box{
+    margin-top: 1rem;
+    width: 30%;
+    height: auto;
+}
+
+
+.our-research{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1.3rem;
+}
+
+.accordion-container{
+    width: 50%;
+}
+
+.accordion-menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    
+}
+
+.accordion{
+    padding: 2rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+}
+
+.accordion:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, .5)
+}
+
+.accordion:after{
+    font-size: 1.5rem;
+    content: '+';
+    color: rgb(255, 230, 0);
+    float: right;
+    margin-right: 20px;
+}
+.accordion.active{
+    border-bottom: none;
+}
+
+.accordion.active:after{
+    content: '-';
+    font-size: 2rem;
+    float: right;
+    margin-right: 20px;
+ 
+}
+
+
+.panel{
+    padding: 2rem;
+    overflow: hidden;
+    display: none;
+    text-align: justify;
+    text-indent: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .6);
+}
+
+
+
+
+.collapse{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    gap: 2rem; 
+    margin-bottom: 2rem; 
+}
+
+.collapse-container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+
+.collapse-container-img >img{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   object-position: top;
+}
+
+.collapse-content{
+    width: 20%;
+    line-height: 1.3rem;
+    display: flex;
+    gap: 1rem;
+}
+.collapse-content >img{
+    width: 55px;
+    height: 55px;
+    object-position: center;
+    object-fit: fill;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.footer-container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    
+}
+
+.footer-container >svg{
+
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.footer-container> svg:hover{
+    fill: rgb(255, 230, 0);
+}
+
+.copy-rights{
+    width: 50%;
+    margin: auto;
+    color: rgb(133, 133, 133);
+    text-align: center;
+}
+
+.content-child{
+    position: relative;
+    width: 50%;
+    height: 600px;
+    padding: 2rem;
+
+}
+
+.circle-center{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+   
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px dashed rgb(133, 133, 133);
+    animation: circle-rotate 40s linear infinite;
+    box-shadow: 0 0 15px -9px #000;
+}
+
+@keyframes circle-rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+.circle > img{
+    width: 100px;
+    height: 100px;
+}
+
+.c-1{
+    top: 2rem;
+    left: 4rem;
+}
+
+.c-2{
+    top: 2rem;
+    right: 2rem;
+}
+
+.c-3{
+    bottom: 4rem;
+    left: 4rem;
+}
+
+.c-4{
+    bottom: 4rem;
+    right: 2rem;
+}
+
+.c-c{
+    top: 9rem;
+    left: 11rem;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+}
+.c-c > img{
+    width: 150px;
+    height: 150px;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.c-c>span{
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    padding-left: 2.5rem;
+}
+
+.circle >span{
+    padding-left: .8rem;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+
+.our-project{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.our-project-content{
+    width: 50%;
+    line-height: 1.3rem;
+}
+
+.location-box{
+    width: 90%;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px -5px #000;
+    padding: 2rem;
+}
+
+.map-content{
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.map-content> svg{
+    fill: rgb(177, 14, 14);
+}
+
+.dropdown{
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+    width: 75%;
+    padding: .5rem;
+    font-weight: 600;
+}
+label{
+    text-transform: uppercase;
+}
+.dropdown:after{
+    content: "+";
+    float: right;
+    margin-right: 20px;
+    color: var(--primary);
+    
+}
